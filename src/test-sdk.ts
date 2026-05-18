@@ -1,7 +1,7 @@
 import { AWP } from './index'
 
 async function test() {
-  const awp = new AWP({ node: 'http://localhost:3000' })
+  const awp = new AWP({ node: 'https://awp-net.up.railway.app/' })
 
   console.log('1. Checking node health...')
   const healthy = await awp.isHealthy()
