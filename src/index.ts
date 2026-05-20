@@ -22,14 +22,15 @@ export interface AWPOptions {
   timeout?: number
 }
 
+const DEFAULT_NODE = 'https://awp-net.up.railway.app/'
+
 export class AWP {
   private nodeUrl: string
   private timeout: number
 
-  constructor(options: AWPOptions) {
-    // Store the node URL, strip trailing slash if present
-    this.nodeUrl = options.node.replace(/\/$/, '')
-    this.timeout = options.timeout ?? 30000
+  constructor(options?: { node?: string; timeout?: number }) {
+    this.nodeUrl = (options?.node ?? DEFAULT_NODE).replace(/\/$/, '')
+    this.timeout = options?.timeout ?? 30000
   }
 
   /**
