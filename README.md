@@ -20,7 +20,7 @@ npm install awp-client
 ## Quick Start
 
 ```typescript
-import { AWP } from 'awp-client'
+import { AWP } from '@roshanpadmanabhan/awp-client'
 
 // Connect to an AWP node
 const awp = new AWP({ node: 'https://awp-net.up.railway.app/' })
