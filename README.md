@@ -1,7 +1,7 @@
 # AWP Client SDK
 
-**Agent Web Protocol (AWP) v1.0** — A TypeScript client library for querying structured facts from an AWP node.
-
+**Agent Web Protocol (AWP) v1.0** — Query the agent web. Structured facts instead of raw HTML. 
+The internet for AI agents, in one npm package.
 ## Overview
 
 AWP Client is a lightweight SDK that enables agents and applications to retrieve structured facts from an Agent Web Protocol network. The protocol seamlessly blends cached data with real-time web lookups, returning consistent, structured information about any topic.
@@ -250,7 +250,7 @@ try {
 
 ## Related
 
-- **AWP Protocol**: [Agent Web Protocol Specification](https://github.com/your-org/awp-protocol)
+- **AWP Protocol**: [Agent Web Protocol Specification](https://broodhoney.github.io/AWP)
 - **AWP Node**: Run your own AWP node
 - **Agent Examples**: See `src/test-sdk.ts` for usage examples
 

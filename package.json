@@ -1,5 +1,5 @@
 {
-  "name": "awp-client",
+  "name": "@roshanpadmanabhan/awp-client",
   "version": "0.1.0",
   "description": "Client SDK for the Agent Web Protocol — The Internet for AI Agents",
   "type": "commonjs",
@@ -11,7 +11,7 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": ["ai", "agents", "llm", "knowledge", "search", "awp", "agent-web-protocol"],
-  "author": "BROODHONEY",
+  "author": "ROSHAN PADMANABHAN <rproshan11@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
